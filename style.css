@@ -1,0 +1,270 @@
+html, body {
+    margin: 0px;
+}
+#imagem_fundo {
+    background: url("Imagens/fundo-2.jpg");
+    height: 600px;
+    text-align: center;
+    background-size: cover;
+}
+header {
+    background-color:black;
+    color: white;
+    height: 75px;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+}
+header #menu li a {
+    text-decoration: initial;
+    color: white;
+}
+#logo {
+    width: 100px;
+    top: 10px;
+    margin-left: 10%;
+    margin-top: 1%;
+}
+#menu {
+    float: right;
+    margin-right: 5%;
+    margin-left: 0%;
+    list-style: none;
+    top: 0px;
+}
+li {
+    float: left;
+    padding: 20px 10px 20px 10px;
+    top: 0px;
+}
+li:hover {
+    background-color: gray;
+}
+#titulo {
+    color: white ;
+    padding-top: 7%;
+    font-size: 35px;
+    margin-left: 1px;
+    float: left;
+}
+#subtitulo {
+    color: white;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 23%;
+    margin-top: 3px solid white;
+    margin-left: 3px 3px black;
+    float: left;
+}
+
+body {
+    background-color: white;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+h5 {
+    color: black;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+h4 { 
+    color: black;
+    margin-left: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: bold;
+    text-align: left;
+}
+hr {
+    display: block;
+    unicode-bidi: isolate;
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    overflow: hidden;
+    border-style: inset;
+    border-width: 0,5px;
+    width: 4%;
+}
+#botao-acao {
+    color:white;
+    margin-top: 70px;
+    border: 2px white solid;
+    padding: 15px 15px 15px 15px;
+}
+section {
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 30px 0 20px 0;
+}
+.destaque {
+    background-color: #f7f7f7;
+    padding: 0px;
+    padding-top: 1px;
+    padding-bottom: 20px;
+}
+.infiel {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+#meta {
+    padding: 2%;
+    text-align: center;
+}
+.icones {
+    width: 20%;
+    height: 20%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.icones2 {
+    width: 45%;
+    height: 20%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.icones3 {
+    width: 80%;
+    height: 40%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.coluna {
+    float: left;
+    padding: 1,5%;
+    position: relative;
+    width: 50%;
+}
+.colunatres {
+    float: left;
+    padding: 2%;
+    position: relative;
+    width: 28%;
+}
+p {
+    color:black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 17px;
+    margin-left: 20px;
+}
+#central {
+    text-align: center;
+}
+#justifi {
+    text-align: justify;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.borda {
+    align-items: center;
+    border: 7px gray solid;
+    padding: 2px;
+}
+#imagem {
+    margin-left: 20px;
+    margin-right: 20px;
+    float: left;
+    border: 3px gray solid;
+    padding: 1px;
+}
+#limagem {
+    margin-top: 6px;
+}
+#salario {
+    margin-left: 20px;
+    margin-right: 20px;
+    float: right;
+    border: gray solid;
+    padding: 1px;
+    margin-top: -2px;
+}
+#propostas {
+    float: left;
+    width: 100%;
+}
+#principal {
+    width: 35%;
+    height: 90%;
+}
+#ranking {
+    float: left;
+    border: gray solid;
+    padding: 1px;
+    margin-left: 40px;
+    margin-right: 20px;
+    margin-top: -10px;
+}
+h5 {
+    font-size: 15px;
+}
+#sobre{
+    margin-bottom: 20px;
+    float: left;
+}
+footer {
+    background-color: black;
+    float: left;
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 50px 0 50px 0;
+    color: #fff;
+}
+#color {
+    color: white;
+}
+#eu {
+    width: 25%;
+    height: 35%;
+    margin-top: 25px;
+}
+@media all and (max-width: 760px) {
+    #menu{
+        visibility: hidden;
+    }
+    .coluna, .colunatres, #destaque {
+        display: block;
+        width: 80%;
+        padding: 0;
+        margin: 10px auto;
+        float: none;
+    }
+    #ranking {
+        width: 80%;
+        height: 35%;
+    }
+    #principal {
+        width: 50%;
+        height: 80%;
+    }
+    .icones{
+        width: 30%;
+        height: 20%;
+    }
+    #imagem_fundo {
+        background: url(Imagens/quase.jpeg);
+        height: 600px;
+        text-align: center;
+        background-size: cover;
+        color: black;
+    }
+    #titulo, #subtitulo {
+        color:seagreen;
+        padding-top:18%;
+    }
+    #botao-acao {
+        color: white;
+        border: black solid;
+    }
+    #logocenter {
+        float: left;
+        margin-left: 0px;
+        position: relative;
+        text-align: center;
+    }
+}
